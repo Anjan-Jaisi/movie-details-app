@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating App</title>
+    <link rel="stylesheet" href="movie.css">
+    <script src="https://kit.fontawesome.com/8acce1427f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section id="searchPart">
+    <input type="text" id="searchBox" placeholder="Enter movie name">
+    <button id="button">Search</button>
+</section>
+
+<section id="movieVisuals">
+
+    <div id="movieDetails">
+        <h1 id="title">Movie Title</h1>
+        <h3 id="year">Year</h3>
+
+        <i class="fa-regular fa-star"></i>
+        <span class="oneLine" id="rating">Rating</span>
+
+        <i class="fa-solid fa-clock" id="clock"></i>
+        <span class="oneLine" id="duration">Duration</span>
+
+        <p id="plot"></p>
+
+        <span class="details" id="genre">Genre</span>
+        <span class="details" id="director">Directed by</span>
+        <span class="details" id="stars">Starring</span>
+
+        <div id="aaa">
+            <span id="trailer" class="buttons">Watch Trailer</span>
+            <span id="play" class="buttons">Play Movie</span>
+        </div>
+    </div>
+
+    <div id="posterDiv">
+        <img id="poster" src="" alt="Movie Poster">
+    </div>
+
+</section>
+
+<script src="movie.js"></script>
+</body>
+</html>
