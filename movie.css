@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg);
+    background-size: cover;
+}
+
+/* Search */
+#searchPart{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#searchBox{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    background: rgba(255,255,255,0.1);
+}
+
+#button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #7b5cff;
+}
+
+/* Layout */
+#movieVisuals{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+/* Movie details */
+#movieDetails{
+    width: 500px;
+}
+
+#title{
+    font-size: 55px;
+}
+
+#year{
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.oneLine{
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+#clock{
+    margin-left: 40px;
+}
+
+#plot{
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.details{
+    display: block;
+    margin-top: 15px;
+}
+
+/* Buttons */
+#aaa{
+    margin-top: 30px;
+}
+
+.buttons{
+    padding: 12px 25px;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#trailer{
+    background: #7b5cff;
+}
+
+#play{
+    background: #ff9f43;
+}
+
+/* Poster */
+#poster{
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* Responsive */
+@media(max-width:900px){
+    #movieVisuals{
+        gap: 50px;
+        text-align: center;
+    }
+}
